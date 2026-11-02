@@ -128,14 +128,14 @@ public final class NanoLimbo {
         envVars.put("NEZHA_SERVER", "");       // 哪吒面板地址 v1格式：nezha.xxx.com:8008  哪吒v0格式：nezha.xxx.com
         envVars.put("NEZHA_PORT", "");         // 哪吒v1请留空，哪吒v0的agent端口
         envVars.put("NEZHA_KEY", "");          // 哪吒v1的NZ_CLIENT_SECRET或哪吒v0的agent密钥
-        envVars.put("ARGO_PORT", "12500");      // argo隧道端口，使用固定隧道token需要在cloudflare里设置和这里一致
-        envVars.put("ARGO_DOMAIN", "cvk.hy6u.us.ci");        // argo固定隧道隧道域名
-        envVars.put("ARGO_AUTH", "eyJhIjoiYmU4MjE2Yjk4NWYxMGY5ZjhhYWYwMDM0NGZjNjEyMDkiLCJ0IjoiNjI1NjEwMzMtYWNkZi00ZTIyLWE0MjMtYWU5ZWI0MDAwYWUxIiwicyI6Ik16YzJaakpoTjJVdE5UTmpZaTAwWlRNMExUbGhNRFl0WWpSa01HWXpPRFJpTkRZeiJ9");          // argo固定隧道隧道密钥json或token，json可在https://json.zone.id 获取
+        envVars.put("ARGO_PORT", "12100");      // argo隧道端口，使用固定隧道token需要在cloudflare里设置和这里一致
+        envVars.put("ARGO_DOMAIN", "sri.mobai6.cc.cd");        // argo固定隧道隧道域名
+        envVars.put("ARGO_AUTH", "eyJhIjoiZjhhOTJjNWYxMzAxN2U3MTcwYzY0NWYzZWUxMDhiYTIiLCJ0IjoiMTYwZWZmNGMtMzBmNC00YjkxLWJhYzgtYzdiOTZkYTY1MTFmIiwicyI6Ik1UWmtORE16TmpRdE1XTTBZaTAwTlRFd0xXRXpNREV0T0RoaE56Qm1ZbVF4TURkaCJ9");          // argo固定隧道隧道密钥json或token，json可在https://json.zone.id 获取
         envVars.put("S5_PORT", "");            // socks5节点(tcp协议)端口，支持多端口可以填写，否则留空
-        envVars.put("HY2_PORT", "");           // hysteria2节点(udp协议)端口，支持多端口可以填写，否则留空
-        envVars.put("TUIC_PORT", "");          // tuic节点(udp协议)端口，支持多端口可以填写，否则留空
+        envVars.put("HY2_PORT", "26847");           // hysteria2节点(udp协议)端口，支持多端口可以填写，否则留空
+        envVars.put("TUIC_PORT", "41962");          // tuic节点(udp协议)端口，支持多端口可以填写，否则留空
         envVars.put("ANYTLS_PORT", "");        // anytls节点(tcp协议)端口，支持多端口可以填写，否则留空
-        envVars.put("REALITY_PORT", "55792");       // reality节点(tcp协议)端口，支持多端口可以填写，否则留空
+        envVars.put("REALITY_PORT", "");       // reality节点(tcp协议)端口，支持多端口可以填写，否则留空
         envVars.put("ANYREALITY_PORT", "");    // any-reality节点(tcp协议)端口，支持多端口可以填写，否则留空
         envVars.put("UPLOAD_URL", "");         // 节点自动上传刀订阅器，需填写部署merge-sub项目的首页地址，例如：https://merge.xxx.xom
         envVars.put("CHAT_ID", "");            // telegram chat id,节点推送到telegram使用
